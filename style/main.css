@@ -53,12 +53,21 @@ header nav a:hover {
     align-items: flex-start;
 }
 
+.background-image {
+    width: 100%;
+}
+
+.imagem-principal {
+    box-sizing: content-box;
+}
+
 .elemento-principal .descricao {
     margin-top: 10px;
-    margin-bottom: 90px;
+    margin-bottom: 40px;
 }
 
 .titulo {
+    margin-top: 10%;
     color: white;
     font-size: 40px;
 }
@@ -85,6 +94,29 @@ header nav a:hover {
 
 .descricao {
     color: white;
+}
+
+/* .container (alteração da margin-left do titulo, descrição e botões */
+
+.container {
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.elemento-principal .container {
+    width: 60%;
+}
+
+.box-filme {
+    height: 80%;
+    width: 80%;
+    display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 

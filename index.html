@@ -5,12 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+
+    <!--Responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+    
+    <!--OWL CSS-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
     <title>Netflix Clone (for now)</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">NETFLIX</h2>
+            <h2 class="logo">FAVORIX</h2>
             <nav>
                 <a href="#">Início</a>
                 <a href="#">Séries</a>
@@ -39,6 +47,41 @@
         </div>
     </main>
 
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/capa-bb.jpg" alt="imagem breaking bad">
+            </div>
+            <div class="item">
+                <img src="img/capa-vikings.jpg" alt="imagem breaking bad">
+            </div>
+            <div class="item">
+                <img src="img/capa-got.jpg" alt="imagem breaking bad">
+            </div>
+            <div class="item">
+                <img src="img/capa-b99.jpg" alt="imagem breaking bad">
+            </div>
+            <div class="item">
+                <img src="img/capa-himym.jpg" alt="imagem breaking bad">
+            </div>
+            <div class="item">
+                <img src="img/capa-ozark.jpg" alt="imagem breaking bad">
+            </div>
+            <div class="item">
+                <img src="img/capa-the100.jpg" alt="imagem breaking bad">
+            </div>
+            <div class="item">
+                <img src="img/capa-theWitcher.jpg" alt="imagem breaking bad">
+            </div>
+        </div>
+    </div>
+
     <script src="https://kit.fontawesome.com/47c4cf64e6.js" crossorigin="anonymous"></script>
+
+    <!--OWL JS-->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/main.js"></script>
+
 </body>
 </html>
