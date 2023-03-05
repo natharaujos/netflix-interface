@@ -52,11 +52,7 @@ Recriando a interface da Netlflix, utilizando HTML, CSS, JavaScript, e alguns pl
     passos:
   </p>
   <ol>
-    <li>
-      Instale o plugin Owl Carousel utilizando o comando
-      <code>npm install owl.carousel</code>.
-    </li>
-    <li>Importe os arquivos CSS e JS do Owl Carousel em sua página HTML.</li>
+    <li>Foram importados os arquivos CSS e JS do Owl Carousel que estão na raiz em sua página HTML.</li>
     <li>
       Crie um elemento HTML para o carrossel, como uma div com uma classe
       específica.
