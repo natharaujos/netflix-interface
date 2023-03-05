@@ -4,12 +4,6 @@ Recriando a interface da Netlflix, utilizando HTML, CSS, JavaScript, e alguns pl
 ## Link
 <a href="https://natharaujos.github.io/netflix-interface/">Netflix Interface</a>
   <p>
-    Aqui está um exemplo de documentação para o Github de um projeto que recria
-    a interface da Netflix, utilizando HTML, CSS, JavaScript e alguns plugins
-    JQuery:
-  </p>
-  <h1>Recriando a interface da Netflix</h1>
-  <p>
     Este projeto é uma recriação da interface da Netflix, utilizando HTML, CSS,
     JavaScript e alguns plugins JQuery para adicionar funcionalidades à página.
     O objetivo deste projeto é demonstrar habilidades em desenvolvimento web
