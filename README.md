@@ -65,22 +65,23 @@ Recriando a interface da Netlflix, utilizando HTML, CSS, JavaScript, e alguns pl
     </li>
   </ol>
     <pre>
-    <div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-javascript">
-        $(<span class="hljs-string">'.owl-carousel'</span>).<span class="hljs-title function_">owlCarousel</span>({
-    <span class="hljs-attr">loop</span>:<span class="hljs-literal">true</span>,
-    <span class="hljs-attr">margin</span>:<span class="hljs-number">10</span>,
-    <span class="hljs-attr">nav</span>:<span class="hljs-literal">true</span>,
-    <span class="hljs-attr">responsive</span>:{
-        <span class="hljs-number">0</span>:{
-            <span class="hljs-attr">items</span>:<span class="hljs-number">1</span>
-        },
-        <span class="hljs-number">600</span>:{
-            <span class="hljs-attr">items</span>:<span class="hljs-number">3</span>
-        },
-        <span class="hljs-number">1000</span>:{
-            <span class="hljs-attr">items</span>:<span class="hljs-number">5</span>
-        }
-    }
-})
-</code></div></pre>
+    <div
+    <code class="!whitespace-pre hljs language-javascript">
+      $(<span class="hljs-string">'.owl-carousel'</span>).<span class="hljs-title function_">owlCarousel</span>({
+      <span class="hljs-attr">loop</span>:<span class="hljs-literal">true</span>,
+      <span class="hljs-attr">margin</span>:<span class="hljs-number">10</span>,
+      <span class="hljs-attr">nav</span>:<span class="hljs-literal">true</span>,
+      <span class="hljs-attr">responsive</span>:{
+          <span class="hljs-number">0</span>:{
+              <span class="hljs-attr">items</span>:<span class="hljs-number">1</span>
+          },
+          <span class="hljs-number">600</span>:{
+              <span class="hljs-attr">items</span>:<span class="hljs-number">3</span>
+          },
+          <span class="hljs-number">1000</span>:{
+              <span class="hljs-attr">items</span>:<span class="hljs-number">5</span>
+          }
+      }
+  })
+  </code></div></pre>
 
